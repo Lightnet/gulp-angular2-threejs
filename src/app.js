@@ -19,11 +19,10 @@ import './jquery.layout.min.js';
     template: `
 
     <div id="container" style="height:100%;width:100%;">
-        <div class="ui-layout-center">Center
-            <h1>{{text0}}</h1>
+        <div class="ui-layout-center" style="margin  : 0;padding : 0;">
             <canvas id="renderCanvas"></canvas>
         </div>
-        <div class="ui-layout-north">North</div>
+        <div class="ui-layout-north">North {{text0}}</div>
         <div class="ui-layout-south">South</div>
         <div class="ui-layout-east">East</div>
         <div class="ui-layout-west">West</div>
@@ -56,8 +55,8 @@ export class MainApp {
 
 		//var renderer = new THREE.WebGLRenderer();
         var renderer = new THREE.WebGLRenderer({ canvas: canvas });
-		renderer.setSize( window.innerWidth, window.innerHeight );
-        //renderer.setSize( 800, 600 );
+		//renderer.setSize( window.innerWidth, window.innerHeight );
+        renderer.setSize( 800, 600 );
 		//document.body.appendChild( renderer.domElement );
 
 		var geometry = new THREE.BoxGeometry( 1, 1, 1 );
