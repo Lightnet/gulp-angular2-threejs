@@ -1,6 +1,6 @@
 # gulp-angular2-threejs
 
-Information: To run gulp auto script builds for development testing to run web page with Babel ES6, Angular2 and Babylon.js javascript.
+Information: To run gulp auto script builds for development testing to run web page with Babel ES6, Angular2 and Threejs javascript.
 
 Programs:
  * Atom.io (optional)
@@ -12,7 +12,7 @@ Programs:
 
 Gulp run auto script with browserify, babelify and others.
 
-Note this is development build. This is just a bare base to run Babylon.js with Angular2. Or I could be wrong but it should run right. From the packages that run list in packages.json.
+Note this is development build. This is just a bare base to run Threejs with Angular2. Or I could be wrong but it should run right. From the packages that run list in packages.json.
 
 To Setup:
 
